@@ -5,11 +5,6 @@ const utilities = require("./util");
 const jokes = require("./jokes.json");
 
 client.on("ready", () => {
-  console.log("Constants Loaded!");
-  console.log("Utility Functions Loaded!");
-  console.log("Jokes Loaded!");
-  console.log("Connected as " + client.user.tag);
-
   client.user.setActivity(constants.ACTIVITY, { type: "WATCHING" });
 });
 
